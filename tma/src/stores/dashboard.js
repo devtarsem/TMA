@@ -25,7 +25,7 @@ const dashBoardStore = create(
             })
             // hecking is the goal achieve
             let date = `${new Date().getDate()}-${new Date().getMonth()+1}-${new Date().getFullYear()}`
-            if(hourscalc.toFixed(2) >= Number(trackset_data.time.split(' ')[0]).toFixed(2)){
+            if(hourscalc.toFixed(2) >= Number(trackset_data?.time.split(' ')[0]).toFixed(2)){
                 if(localStorage.getItem("consistency_marker")){
                     const marker = JSON.parse(localStorage.getItem('consistency_marker'))
                     
@@ -68,6 +68,9 @@ const dashBoardStore = create(
         ,
         checkingYesterdayWorkedOrNot : async()=>{
             let consistencyMarker = JSON.parse(localStorage.getItem('consistency_marker'))
+            if(!consistencyMarker){
+                return 0;
+            }
             let lastWorkingday = consistencyMarker[consistencyMarker.length-1];
             let [day,month,year] = lastWorkingday.date.split('-').map(Number);
             

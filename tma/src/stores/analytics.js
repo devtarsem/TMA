@@ -91,6 +91,9 @@ const analyticsStore = create(
         weeklySubsDistribution : async()=>{
             const allSubjsOfLast7Days = [];
             let analyticData = JSON.parse(localStorage.getItem('analyticsList'))
+            if(!analyticData){
+                return 0;
+            }
             for(let i = analyticData.length-1; i>analyticData.length-8; i--){
                 allSubjsOfLast7Days.push(...analyticData[i].list)
             }

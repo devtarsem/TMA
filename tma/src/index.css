@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'DM Sans';
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #fff;  */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #fff;  */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
+.days{
+  background-color: #e7e7e7;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.days_curr{
+  background-color: var(--color-second);
+  color: var(--color-first);
+  box-shadow: 0 0 0.5rem var(--color-third);
+}

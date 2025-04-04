@@ -1,0 +1,180 @@
+.planfront{
+    height: 90vh;
+}
+.planfrmae{
+    border-radius: 1rem;    
+    width: 100%;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+    color: var(--color-second);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.nameofplan__{
+    font-weight: 600;
+    
+}
+
+.planfrmae:nth-child(odd){
+    background-color: var(--color-first);
+
+
+}
+.planfrmae:nth-child(even){
+    background-color: var(--color-third);
+    color: var(--color-first);
+
+}
+.planpanelsheet{
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    /* align-items: start; */
+}
+.addnewplansClose,.addnewplansOpen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+.addnewplansClose{
+    top: 0 !important;
+    left: 100% !important;
+}
+.icon_add{
+    width: 8%;
+}
+.btn_add{
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-second) !important;
+}
+
+.planForm{
+    background-color: var(--color-five);
+}
+.addPlansub,.closeBtnPlanDist{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--color-third);
+    font-family: 'DM Sans';
+    border-radius: 1rem;
+    font-weight: 700;
+    color: var(--color-first);
+    cursor: pointer;
+}
+
+.inp_special{
+    background: none;
+    color: var(--color-first);
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'DM Sans';
+    border-bottom: 0.1rem solid var(--color-third);
+
+}
+.inp_special::placeholder{
+    color: var(--color-first);
+}
+.inp_special:focus{
+    border-radius: 0.5rem;
+    outline : 0.1rem solid var(--color-third);
+}
+.planForm{
+    border-bottom: 0.5rem solid var(--color-third);
+    border-top: 0.5rem solid var(--color-third);
+
+}
+.plandisplay{
+    height: 30vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.plansubs{
+    background-color: var(--color-first);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    min-height: 25vh;
+    
+    /* border-left: 1rem solid var(--color-third); */
+}
+.removeTemp{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.sublan,.deadline{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 300;
+}
+.sublan{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-second);
+}
+.addPlan{
+    grid-column: 1/3;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--color-third);
+    font-weight: 600;
+    font-family: 'DM Sans';
+    color: var(--color-first);
+    cursor: pointer;
+}
+.plansubs{
+    position: relative;
+    overflow: hidden;
+}
+.periorityBatch{
+    position: absolute;
+    height: 1.8rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.MustDo{
+    background-color: var(--color-mustdo);
+    color: var(--color-first)
+}
+.Moderatelly{
+    background-color: var(--color-Moderatelly);
+    color: var(--color-first)
+
+}
+.fun{
+    background-color: var(--color-fun);
+    color: var(--color-first)
+
+}
+.delegate{
+    background-color: var(--color-delegate);
+    color: var(--color-first)
+
+}
+.per{
+    text-align: center;
+}
+.sublan{
+    margin-top: 1rem;
+}
+.planDisplay{
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.del_icon_plan{
+    width: 100%;
+}
+.wholeplandelete{
+    background: none;
+    border: none;
+}

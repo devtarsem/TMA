@@ -1,0 +1,207 @@
+.top,.menu__{
+    height: 10vh;
+}
+.dashboard{
+    height: 100vh;
+}
+.calender{
+    height: 20vh;
+    /* background-color: #F12B6B; */
+}
+.trackers{
+    height: 60vh;
+}
+
+
+.head_third{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--color-second);
+}
+.head_third span{
+    font-weight: 700;
+
+}
+.head2{
+    color: var(--color-second);
+    font-size: 1.6rem;
+}
+.head2 span{
+    color: var(--color-third);
+}
+.head2__pro span{
+    background-color: var(--color-third);
+    padding: 1rem;
+    color: var(--color-first);
+    display: inline-block;
+    border-radius: 1rem;
+}
+.cal{
+    width: 100%;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.todo{
+    padding-top: 0;
+}
+.todocover{
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-first);
+    box-shadow: 0 0 0.3rem var(--color-second);
+}
+.caltodo{
+    padding-top: 0.3rem;
+}
+.todopro{
+    font-size: 1.6rem;
+}
+.todopro_{
+    font-size:1.4rem;
+
+}
+.todocover:nth-child(even){
+    background-color: var(--color-second);
+    color: var(--color-first) !important;
+}
+.todocover:nth-child(odd){
+    background-color: var(--color-third);
+    color: var(--color-first) !important;
+}
+.time_pro{
+    font-size: 3.2rem;
+}
+.h2 span{
+    color: var(--color-third);
+    font-weight: 600;
+}
+.tracker_panel{
+    background-color: var(--color-second);
+    height: 100%;
+    border-radius: 1rem;
+}
+.label{
+    color: var(--color-first);
+}
+
+.settrackers{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: var(--color-third);
+    color: var(--color-first);
+}
+.trackChecks{
+    height: 100%;
+    /* background-color: var(--color-second); */
+    border-radius: 1rem; 
+}
+.consistent,.hourgoal{
+    height: 50%;
+    width: 100%;
+    background-color: #F12B6B;
+    border-radius: 1rem;
+}
+.hourgoal{
+    background-color: var(--color-delegate);
+    background-image: linear-gradient(to left bottom, var(--color-delegate), var(--color-fun));
+}
+.head_tracker,.des_track{
+    color: var(--color-first);
+}
+.trackdo{
+    width: 4vh;
+    /* background-color: var(--color-first); */
+    height: 4vh;
+    border-radius: 100%;
+    background-color: none;
+    border: 0.1rem solid var(--color-first);
+}
+.trackdoFill{
+    background-color: var(--color-first);
+}
+.trackdoFill .num{
+    color: var(--color-second) !important;
+
+}
+.num{
+    color:var(--color-first);
+}
+
+.outerlab{
+    width: 100%;
+    height: 2vh;
+    background-color: var(--color-first);
+    border-radius: 1rem;
+}
+.innerlab{
+    width: 10%;
+    height: 100%;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.head_tracker__{
+    color: var(--color-first);
+}
+
+.consistent,.hourgoal{
+    position: relative;
+}
+.trackerName,.trackerName2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    background-color: var(--color-first);
+    border-radius: 1rem 0 1rem 0;
+}
+.trackcall{
+    color: var(--color-first);
+}
+.dateToday{
+    font-size: 1.6rem;
+}
+.dateToday span{
+    font-size: 4.8rem;
+    color: var(--color-second);
+}
+.step{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-third);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%);
+}
+.stepvalue{
+    font-weight: 700;
+    color: var(--color-first);
+}
+.consistent{
+    position: relative;
+}
+.resettracker{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color: var(--color-second);
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 0 1rem 0 1rem;
+    color: var(--color-first);
+    font-family: 'DM Sans';
+}
+.logo_icon{
+    width: 4.8rem;
+    border: 0.2rem solid var(--color-second);
+    border-radius: 50%;
+    outline: 0.5rem solid var(--color-fade);
+}
+
+.learn{
+    font-size: 1.2rem;
+    color: #00000079;
+}

@@ -1,0 +1,147 @@
+.timerTop,.timerProgress{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.timerProgress{
+    overflow: hidden;
+}
+.timerTimer{
+    background-color: var(--color-second);
+    height: 70vh;
+    border-radius: 1rem;
+}
+.outer,.inner{
+    height: 35vh;
+    width: 35vh;
+    background-color: var(--color-third);
+    border-radius: 50%;
+}
+.inner{
+    height: 30vh;
+    width: 30vh;
+    background-color: var(--color-second);
+}
+.outer{
+    position: relative;
+}
+.bar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.countTime{
+    font-size: 4.8rem;
+    color: var(--color-third);
+    font-weight: 600;
+}
+.playBtn,.settingBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.setIcon{
+    width: 100%;
+}
+.timerTimer{
+    position: relative;
+}
+.settingBtn{
+    position: absolute;
+    right: 4%;
+    top: 3%;
+}
+.outerbar{
+    width: 100%;
+    height: 2vh;
+    background-color: var(--color-first);
+    border-radius: 10rem;
+}
+.playIcon{
+    width: 6.4rem;
+    margin-top: 1.6rem;
+}
+.tag{
+    font-size: 1.6rem;
+    color: var(--color-third);
+    font-weight: 500;
+}
+.timerTimer{
+    position: relative;
+}
+.timerSetting{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-second);
+    top: 0;
+    left: 0;
+    z-index: 500;
+    border-radius: 1rem;
+}
+.headcenter{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.incBtn,.closeSettings{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.bighead{
+    font-size: 3.2rem;
+}
+.tset{
+    text-align: center;
+}
+.count__overload,.countTime{
+    font-size: 1.6rem !important;
+    color: var(--color-first) !important;
+    text-align: center;
+}
+.count__overload span, .countTime span{
+    font-size: 2.6rem;
+}
+.countTime{
+    color: var(--color-third) !important;
+
+}
+.countTime span{
+    font-size: 4rem;
+    color: var(--color-third);
+}
+.timerTimer{
+    position: relative;
+}
+.extraAdds{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.takeBreakbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    padding: 1rem 3rem;
+    font-family: 'DM Sans';
+    font-size: 2rem;
+    border-radius: 1rem 0 0 0;
+    color: var(--color-first);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--color-third);
+    
+}
+.add5moreMin{
+    padding: 0.5rem 1rem;
+    font-family: 'DM Sans';
+    border-radius: 1rem;
+    background-color: var(--color-Moderatelly);
+    border: none;
+    color: var(--color-first);
+    cursor: pointer;
+}

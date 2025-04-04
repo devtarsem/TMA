@@ -1,0 +1,52 @@
+.plansubdetails{
+    background-color: var(--color-second);
+}
+
+.sublan__{
+    margin-top: 2rem !important;
+}
+.whiteColor{
+    color: var(--color-first) !important;
+}
+.plansubdetails{
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 1.6rem;
+}
+.periorityBatch{
+    position: absolute;
+    height: 1.8rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.sliderDisplayOfplanitems{
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.pdslink{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 5rem;
+    background-color: var(--color-second);
+    z-index: 100;
+    font-size: 1.6rem;
+    color: var(--color-first);
+    text-decoration: none;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    text-align: center;
+}
+.plansubdetails{
+    position: relative;
+}
+.planInDelete{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}

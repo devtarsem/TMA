@@ -1,0 +1,6 @@
+@media(max-width : 620px){
+    .dateToday span{
+        font-size: 7.2rem;
+    }
+    
+}

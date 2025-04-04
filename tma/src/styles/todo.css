@@ -1,0 +1,166 @@
+.front{
+    height: 90vh;
+    padding-bottom: 0.8rem;
+}
+.todofront{
+    background-color: var(--color-second);
+    height: 100%;
+    border-radius: 1rem;
+}
+.dislplayworks{
+    height: 100%;
+    background-color: var(--color-first);
+}
+.inpwork{
+    height: 50vh;
+    padding-top: 0;
+    border-radius: 1rem !important;
+}
+.addwork{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: var(--color-third);
+    color: var(--color-first);
+    border: none;
+    font-family: 'DM sans';
+    font-weight: 700;
+}
+.addwork_{
+    width: auto;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.subs{
+    background-color: var(--color-fourth);
+    border-radius: 1rem;
+    border-left: 1.4rem solid var(--color-second);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+.design_suu{
+    position: absolute;
+    width: 10vh;
+    background-color: var(--color-second);
+    height: 10vh;
+    right: -10%;
+    bottom: 0;
+    transform: rotate(45deg);
+    border-radius: 1rem;
+    outline: 1.6rem solid var(--color-second);
+    outline-offset: 1rem;
+}
+.subject{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-first);
+}
+.sub__{
+    font-weight: 400;
+}
+.wrksflow{
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+.displayImportPlans{
+    width: 100%;
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: var(--color-first);
+    z-index: 600;
+}
+.displayImportPlans__{
+    z-index: 1000;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.todohead span{
+    color: var(--color-third);
+}
+.planslist{
+    border: none;
+    font-family: 'DM Sans';
+}
+.planslist:nth-child(odd){
+    background-color: var(--color-second);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--color-first);
+    font-size: 1.2rem;
+}
+.planslist:nth-child(even){
+    background-color: var(--color-third);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--color-first);
+    font-size: 1.2rem;
+}
+
+.planty{
+    background-color: var(--color-first);
+    border-radius: 0.5rem;
+}
+
+.head3{
+    text-align: center;
+    color: var(--color-first);
+}
+.head3 span{
+    background-color: var(--color-third);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.importBtn,.startPDs{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'DM Sans';
+    background-color: var(--color-third);
+    color: var(--color-first);
+    font-weight: 600;
+}
+.startPDs{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.sub__{
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+}
+.icon_del{
+    width: 80%;
+}
+.subs{
+    position: relative;
+}
+.deletebtn{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 2%;
+    bottom: 25%;
+    z-index: 500;
+}
+.head3Small{
+    font-size: 1.2rem;
+}
+.backBtn{
+    background-color: var(--color-third);
+    height: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--color-first);
+}

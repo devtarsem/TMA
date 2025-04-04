@@ -1,0 +1,60 @@
+.icon_display{
+    width: 80%;
+}
+
+.display{
+    height: 100vh;
+    background-color:#d9faff1c;
+}
+.head_display,.head_primary_display{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 2.8rem;
+    color: var(--color-second);
+}
+.des_dislay{
+    font-family: 'DM Sans';
+    font-size: 1.4rem;
+    color: var(--color-second);
+    line-height: 1.5;
+}
+.head_display span{
+    border-bottom: 0.2rem solid var(--color-third);
+}
+.biggerhead span{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'DM Sans';
+    background-color: var(--color-third);
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    color: var(--color-first);
+}
+.linkBtn{
+    text-decoration: none;
+    background-color: var(--color-second);
+    width: 100%;
+    padding:  1rem 3.2rem;
+    font-size: 2.4rem !important;
+    color: var(--color-first) !important;
+    text-align: center;
+    border-radius: 1rem;
+}
+.links{
+    font-size: 1.2rem;
+    color: var(--color-second);
+}
+.display{
+    position: relative;
+    overflow: hidden;
+}
+.designCirce{
+    position: absolute;
+    top: -40%;
+    left: 0%;
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+    background-color: var(--color-second);
+    outline: 5rem solid var(--color-fade);
+}

@@ -1,0 +1,82 @@
+.headpd span{
+    font-size: 2.4rem;
+}
+.pds{
+    height: 100vh;
+}
+.pdss{
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.progressBar{
+    height: 15vh;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.pdssele{
+    border: none;
+    font-family: 'DM Sans';
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pdssele:nth-child(odd){
+    background-color: var(--color-second);
+    padding: 1.6rem;
+    color: var(--color-first);
+    border-radius: 1rem;
+    border-left: 1rem  solid var(--color-third);
+}
+.pdssele:nth-child(even){
+    background-color: var(--color-third);
+    padding: 1.6rem;
+    color: var(--color-first);
+    border-radius: 1rem;
+    border-left: 1rem  solid var(--color-second);
+}
+.pdTop{
+    height: 10vh;
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.head2__{
+    color: var(--color-first);
+}
+
+.progressouter,.progressinner{
+    width: 100%;
+    height: 3vh;
+    background-color: var(--color-first);
+    border-radius: 10rem;
+    overflow: hidden;
+}
+.progressinner{
+    width: 70%;
+    background-color: var(--color-third);
+}
+.progress__,.progress_{
+    color: var(--color-third);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.subpd{
+    font-size: 1.4rem;
+}
+.progress_{
+    color: var(--color-first);
+}
+.playIcon__{
+    width: 10%;
+}
+
+.timeprogress_{
+    height: 1vh !important;
+}
+.outerbar___{
+    width: 100%;
+    height: 100%;
+}
+.innerbar__{
+    background-color: var(--color-first) !important;
+}

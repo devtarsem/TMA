@@ -1,6 +1,6 @@
 import {create} from 'zustand';
 
-let analyticData = JSON.parse(localStorage.getItem('analyticsList'))
+// let analyticData = JSON.parse(localStorage.getItem('analyticsList'))
 let todo = JSON.parse(localStorage.getItem('todoList'))
 import DateToLabels from '../classes/dateToLabelDate';
 
@@ -37,7 +37,7 @@ const analyticsStore = create(
             // }
             // console.log(lastWeekData)
             
-
+            let analyticData = JSON.parse(localStorage.getItem('analyticsList'))
             analyticData.forEach(eachDay=>{
                 eachDay.list.forEach(subject=>{
                     hours = Number(subject.hourCompleted) + Number(hours);
@@ -67,6 +67,7 @@ const analyticsStore = create(
 
         dailyWorkDistribution : async()=>{
             let totalHours = 0;
+            let todo = JSON.parse(localStorage.getItem('todoList'))
             todo.forEach(el=>{
                 totalHours = totalHours + Number(el.hour)
             })
@@ -89,6 +90,7 @@ const analyticsStore = create(
 
         weeklySubsDistribution : async()=>{
             const allSubjsOfLast7Days = [];
+            let analyticData = JSON.parse(localStorage.getItem('analyticsList'))
             for(let i = analyticData.length-1; i>analyticData.length-8; i--){
                 allSubjsOfLast7Days.push(...analyticData[i].list)
             }

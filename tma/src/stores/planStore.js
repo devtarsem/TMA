@@ -64,6 +64,9 @@ const planStore = create(
         }
         ,
         popUpOnuserAddingSameNameSubjectsToNewPlan : (name)=>{
+            if(!localStorage.getItem('builderArrayTMA')){
+                return 1;
+            }
             let alladdedSubs = JSON.parse(localStorage.getItem('builderArrayTMA'))
             alladdedSubs = alladdedSubs.filter(el=>{
                 if(el.name === name){

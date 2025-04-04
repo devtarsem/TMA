@@ -94,7 +94,7 @@ const analyticsStore = create(
             if(!analyticData){
                 return 0;
             }
-            for(let i = analyticData.length-1; i>analyticData.length-8; i--){
+            for(let i = analyticData.length-1; i>analyticData.length>8 ? analyticData.length-8: analyticData.length-1; i--){
                 allSubjsOfLast7Days.push(...analyticData[i].list)
             }
             // console.log(allSubjsOfLast7Days)

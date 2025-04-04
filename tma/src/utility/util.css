@@ -131,3 +131,6 @@
     font-family: 'DM Sans';
     outline: none;
   }
+.link{
+  text-decoration: none !important;
+}

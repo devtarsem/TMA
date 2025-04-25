@@ -1,0 +1,59 @@
+.styled-calendar {
+  border-radius: 1rem;
+}
+.btnSchedule{
+    padding: 1rem;
+    border: none;
+    font-family: 'DM Sans';
+    border-radius: 1rem;
+    background-color: var(--color-second);
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.addEvent{
+    border: none;
+    padding: 1rem;
+    font-family: 'DM Sans';
+    border-radius: 0.5rem;
+    background-color: var(--color-second);
+    color: #fff;
+    cursor: pointer;
+}
+
+.eve{
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-second);
+    border-left: 1rem solid var(--color-second);
+}
+.nameevent{
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+.nameevent span{
+    font-weight: 700;
+}
+
+.fetchExitingEvents{
+    height: 33vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.eve{
+    position: relative;
+}
+.deleteUcon{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.closebtnIcon{
+    width: 2.4rem;
+
+}

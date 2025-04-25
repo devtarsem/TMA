@@ -10,6 +10,7 @@ import PlanDetails from './components/planDetails'
 import Timer from './components/timer'
 import Analytics from './components/analytics'
 import Notes from './components/notes'
+import Calender from './components/calender'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
   {
     path : '/pds',
     element : <Pds/>
+  }
+  ,
+  {
+    path : '/calender',
+    element : <Calender/>
   }
   ,
   {

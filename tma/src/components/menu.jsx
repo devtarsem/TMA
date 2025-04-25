@@ -31,9 +31,9 @@ function Menu(){
                 <img src={ana} className='icon_menu icon__menu_small' alt='settings'/>
                 <p className='name'>Analytics</p>
             </Link>
-            <Link className='link flex flex-1 gap4 flex-dir' to='/pds'>
+            <Link className='link flex flex-1 gap4 flex-dir' to='/calender'>
                 <img src={work} className='icon_menu' alt='settings'/>
-                <p className='name'>Do work</p>
+                <p className='name'>schedule</p>
             </Link>
             <Link className='link flex flex-1 gap4 flex-dir' to='/notes'>
                 <img src={notes} className='icon_menu' alt='settings'/>

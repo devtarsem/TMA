@@ -1,0 +1,13 @@
+@media(max-width : 1500px){
+    .appne{
+        width: 60vh !important;
+        margin: 0 auto;
+        background-color: var(--color-white) !important;
+        border-left: 0.1rem solid var(--color-second);
+        border-right: 0.1rem solid var(--color-second);
+
+    }
+    .plan,.notes{
+        width: 60vh !important;
+    }
+}

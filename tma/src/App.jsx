@@ -11,6 +11,7 @@ import Timer from './components/timer'
 import Analytics from './components/analytics'
 import Notes from './components/notes'
 import Calender from './components/calender'
+import './styles/media.css'
 
 const router = createBrowserRouter([
   {
@@ -71,7 +72,11 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={router}/>
+    <div className='uppercocr'>
+      <div className='appne flex flex-2'>
+        <RouterProvider router={router}/>
+      </div>
+    </div>
   )
 }
 
